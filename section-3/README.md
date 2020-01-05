@@ -3,9 +3,13 @@
 Topics are:
 
 * Adding multiple files of a certain type
+  * `git add *.<target-type>`
 * Adding all files in directory (including hidden)
+  * `git add -A` or `git add .`
 * Removing files
+  * `git rm --cached <your-file>`
 * Ignoring files
+  * `touch .gitignore && echo "<file-you-want-to-ignore>" >> .gitignore`
 
 ---
 
