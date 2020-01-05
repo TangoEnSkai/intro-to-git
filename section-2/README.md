@@ -1,8 +1,8 @@
-# Section 2 - Practice Exercises
+# Section 2 - Your first commit
 
 ---
 
-## Instructions:
+## Instructions
 
 * Create a new directory for your project
 * Change directories into your project folder
@@ -15,7 +15,7 @@
 
 ---
 
-## Solutions:
+## Solutions
 
 * Create a new directory for your project
 
@@ -29,7 +29,7 @@ mkdir git_section_2
 cd git_section_2
 ```
 
-* Initialize a Git repository to begin tracking your project
+* Initialise a Git repository to begin tracking your project
 
 ```bash
 git init
@@ -38,19 +38,19 @@ git init
 * Create some random files for the project (e.g., index.html and style.css)
 
 ```bash
-touch index.html && rouch style.css
+touch index.html && touch style.css
 ```
 
 * Check the status of your repository
 
 ```bash
-git statust
+git status
 ```
 
 * Add the files to the staging area
 
 ```bash
-git add <file-name> 
+git add <file-name>
 ```
 
 * Check the status of your repository again
@@ -64,4 +64,3 @@ git status
 ```bash
 git commit -m "Commit message here"
 ```
-
