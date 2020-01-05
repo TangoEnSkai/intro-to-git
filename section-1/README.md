@@ -10,6 +10,6 @@
 
 - Files and directories that we explicitly add to the staging area
 
-## Git Reposiory
+## Git Repository
 
 - Where all our snapshots are stored
