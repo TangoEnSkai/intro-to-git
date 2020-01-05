@@ -1,4 +1,4 @@
-# Section 3 - Practice Exercises
+# Section 3 - Adding, Removing, and Ignoring
 
 Topics are:
 

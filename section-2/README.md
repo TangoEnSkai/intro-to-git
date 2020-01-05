@@ -1,4 +1,4 @@
-# Section 2 - Your first commit
+# Section 2 - Your First Commit
 
 ---
 
