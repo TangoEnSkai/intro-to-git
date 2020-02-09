@@ -9,6 +9,9 @@ Topics are:
   * Adding a branches
     * `git checkout -b <branch-name>`
       * be aware that there might be conventions for branch names depending on your team
+      * FYI, personally we type `checkout` a lot, so I register an alias for this on `~/.gitconfig`
+        * `[alias] co = checkout`
+        * this makes you can do: `git co -b <branch-name>`
   * Changing branches (e.g. change to `master`)
     * `git checkout master`
   * Merging a branch (e.g merge `feature1` into `master`)
