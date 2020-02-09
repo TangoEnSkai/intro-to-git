@@ -1,5 +1,7 @@
 # Section 4 - Branches
 
+---
+
 Topics are:
 
 * Git Branches
@@ -91,3 +93,5 @@ Here is the relationship between the feature branch and master branch:
   * `git branch -d feature`
 * List all branches to ensure feature was removed
   * `git branch` or maybe `git branch -a`
+
+---

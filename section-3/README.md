@@ -1,5 +1,7 @@
 # Section 3 - Adding, Removing, and Ignoring
 
+---
+
 Topics are:
 
 * Adding multiple files of a certain type
@@ -224,3 +226,6 @@ commit the result:
 ```bash
 git commit -m "Complete section 3 exercise"
 ```
+
+---
+

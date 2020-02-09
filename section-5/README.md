@@ -1,4 +1,4 @@
-# Section 5 - Checking out commits
+# Section 5 - Checking out Commits
 
 ---
 
@@ -84,3 +84,5 @@ Note: When you checkout an earlier commit, you are now in a "`detached HEAD`" st
   - `git checkout master`
 - Check your repo commit history (notice how the changes from your new branch do not exist in master)
   - `git log`
+
+---

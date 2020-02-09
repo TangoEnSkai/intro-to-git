@@ -1,5 +1,7 @@
 # Section 6 - GitHub
 
+---
+
 Topics are:
 
 * Sing up to [GitHub](https://github.com/)
