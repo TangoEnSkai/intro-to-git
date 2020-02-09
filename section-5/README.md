@@ -30,3 +30,57 @@ Git allows us to checkout any of the commits from our log. This means we can go 
 8) Once you're done working from this commit, you can return to the most recent commit on the branch of your choosing by typing `git checkout <branch_name>`, in this case I typed `git checkout master` and it returned me to my most recent commit on the master branch.
 
 Note: When you checkout an earlier commit, you are now in a "`detached HEAD`" state, this means that you are no longer on the commit that is being pointed to by the `HEAD`. The `HEAD`, in git, is a **pointer to the most recent commit of whichever branch you are currently on**.
+
+---
+
+## Instruction
+
+- Use your terminal to open up the **git_section_4** directory from the last set of practice exercises.
+- You should have 2 commits in this git repository, if you don't have 2 then go ahead and create some changes and commit them so you will have 2 to work with
+- Check your repository commit history
+- Checkout the first commit
+- Make some changes to **file1.txt**
+- Checkout a new branch to save these changes into
+- Check the status of the repository
+- Add **file1.txt** to the staging area
+- Check the status of the repository again
+- Commit the changes
+- Switch back to the master branch
+- Check your repo commit history (notice how the changes from your new branch do not exist in master)
+
+---
+
+## Solution
+
+- Use your terminal to open up the **git_section_4** directory from the last set of practice exercises.
+  - `cd git_section_4`
+- You should have 2 commits in this git repository, if you don't have 2 then go ahead and create some changes and commit them so you will have 2 to work with
+  - e.g. you can add any files or changes on the files and add commits like this:
+    - `touch example.txt`
+    - `git add example.txt`
+    - `git commit -m "Create a file"` // the first commit
+    - `echo "example message" >> example.txt` // write a message into the `txt` file
+      - if you want to check out it successfully writes the message, you may use `echo example.txt` and will see `example message` on your terminal right after you run the command.
+    - `git add -p example.txt` // add the changes
+    - `git commit -m "Write a message"`
+    - Thus, you get 2 commits
+- Check your repository commit history
+  - `git log`
+- Checkout the first commit
+  - `git checkout <SHA-1_hash_key_here>`
+- Make some changes to **file1.txt**
+  - `echo "hello world" >> file1.txt`
+- Checkout a new branch to save these changes into
+  - `git checkout -b feature2`
+- Check the status of the repository
+  - `git status`
+- Add **file1.txt** to the staging area
+  - `git add file1.txt`
+- Check the status of the repository again
+  - `git status`
+- Commit the changes
+  - `git commit -m "Update file1.txt"`
+- Switch back to the master branch
+  - `git checkout master`
+- Check your repo commit history (notice how the changes from your new branch do not exist in master)
+  - `git log`
