@@ -1,6 +1,6 @@
 # intro-to-git
 
-This is a note of self-study on GitHub by taking a lecture to get some idea how to teach GitHub to beginners. The original notes are mainly coming from the lecture, but I may updates some additional notes or tips.
+This is a simple note about using GitHub from several resources to introduce GitHub to beginners.
 
 ---
 
